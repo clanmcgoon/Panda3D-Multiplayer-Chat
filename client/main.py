@@ -14,8 +14,8 @@ import sys
 base.disableMouse()
 base.camera.setPos(0,0,10)
 #establish connection > send/receive updates > update world
-worldClient = Client(9099,"LocalHost")
-#worldClient = Client(9099,"192.168.2.13")
+#worldClient = Client(9099,"LocalHost")
+worldClient = Client(9099,"192.198.88.50")
 Terrain = Terrain()
 N = PlayerReg()
 me = Me(Terrain)
